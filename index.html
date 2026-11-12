@@ -85,7 +85,7 @@
     <p>O Perspecta é um aplicativo gratuito e independente de curadoria de notícias. Responsável pelo tratamento dos dados: Rodrigo Sarmento Caldeira Brant. Contato: perspecta.app@gmail.com.</p>
 
     <h3>2. Dados que ficam no seu aparelho</h3>
-    <p>Preferências de leitura, tema, histórico de matérias abertas, favoritas, filtros de silenciamento e a região inferida são gravados apenas no armazenamento local do dispositivo. Não coletamos nome, e-mail, telefone, contatos, localização por GPS, câmera, microfone nem identificadores de publicidade.</p>
+    <p>Preferências de leitura, tema, histórico de matérias abertas, favoritas, filtros de silenciamento e a região inferida são gravados apenas no armazenamento local do dispositivo. Não coletamos nome, e-mail, telefone, contatos, localização por GPS, câmera, microfone nem identificadores de publicidade. Para sugerir a pauta local, a cidade pode ser estimada a partir do endereço IP por serviços de geolocalização; o IP não é guardado e a estimativa fica apenas no aparelho.</p>
 
     <h3>3. Avaliações da comunidade</h3>
     <p>Ao avaliar uma matéria, enviamos um registro anônimo com o endereço do artigo transformado em código hash, o voto (positiva ou não) e o motivo escolhido. Não há login nem identificação pessoal. O envio passa por uma função no Supabase que aplica limites de uso e protege a base de dados. O seu histórico de votos permanece no aparelho. A base legal é o seu consentimento, manifestado ao enviar a avaliação, e o legítimo interesse na moderação da comunidade.</p>
@@ -97,7 +97,7 @@
     <p>Quando você escolhe a opção "outros motivos" e escreve um relato, o texto é enviado por e-mail à curadoria do Perspecta e analisado pelo Google Gemini. O envio e a análise passam por uma função no Supabase com limites de uso; nenhuma chave secreta fica no seu aparelho. O título e o link da matéria acompanham o relato. A base legal é o seu consentimento, manifestado ao enviar o relato. Não inclua dados pessoais, sensíveis ou de terceiros no campo de texto.</p>
 
     <h3>6. Serviços de terceiros</h3>
-    <p>Usamos Supabase (armazenamento das avaliações), Google Gemini (análise do conteúdo), Google Apps Script e Gmail (recebimento dos relatos), Open-Meteo (previsão do tempo a partir de coordenadas aproximadas da cidade) e os sites dos veículos (quando você abre uma matéria). Cada serviço possui sua própria política de privacidade.</p>
+    <p>Usamos Supabase (armazenamento das avaliações), Google Gemini (análise do conteúdo), Google Apps Script e Gmail (recebimento dos relatos), serviços de geolocalização por IP (ipwho.is, geojs.io e freeipapi.com) para estimar a cidade, Open-Meteo (previsão do tempo a partir de coordenadas aproximadas da cidade) e os sites dos veículos (quando você abre uma matéria). Cada serviço possui sua própria política de privacidade.</p>
 
     <h3>7. Compartilhamento e publicidade</h3>
     <p>Não vendemos, alugamos nem cedemos seus dados para publicidade. O app não exibe anúncios, não usa rastreadores de terceiros e não cria perfis comerciais.</p>
